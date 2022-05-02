@@ -1,0 +1,120 @@
+div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    height: 100vh;
+    position: relative;
+    animation: 1.5s infinite;
+}
+
+.box1 {
+    background: greenyellow;
+    width: 100px;
+    height: 100px;
+    animation-name: box1;
+}
+
+.box2 {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    animation-name: box2;
+}
+
+.box3 {
+    Background: yellow;
+    width: 100px;
+    height: 100px;
+    animation-name: box3;
+}
+
+.box4 {
+    background: red;
+    width: 100px;
+    height: 100px;
+    animation-name: box4;
+}
+
+.box5 {
+    background: purple;
+    width: 100px;
+    height: 100px;
+    animation-name: box5;
+}
+
+@keyframes box1 {
+    0% {
+        top: 200px;
+    }
+
+    50% {
+        transform: scale(0.7);
+        top: 100px;
+    }
+
+    100% {
+        top: 200px;
+    }
+}
+
+@keyframes box2 {
+    0% {
+        top: 200px;
+    }
+
+    50% {
+        border-radius: 50%;
+        top: 80px;
+    }
+
+    100% {
+        top: 200px;
+    }
+}
+
+@keyframes box3 {
+    0% {
+        top: 200px;
+    }
+
+    50% {
+        transform: scale(0.7);
+        top: 50px;
+    }
+
+    100% {
+        top: 200px;
+    }
+}
+
+@keyframes box4 {
+    0% {
+        top: 200px;
+    }
+
+    50% {
+        border-radius: 50%;
+        top: 80px;
+    }
+
+    100% {
+        top: 200px;
+    }
+}
+
+@keyframes box5 {
+    0% {
+        top: 200px;
+    }
+
+    50% {
+        transform: scale(0.7);
+        top: 100px;
+    }
+
+    100% {
+        top: 200px;
+    }
+}
